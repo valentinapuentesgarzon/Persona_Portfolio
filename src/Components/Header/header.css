@@ -1,0 +1,45 @@
+#Nav {
+    color: var(--color-text) !important; 
+    font-size: 1.2rem;
+}
+
+#Logo {
+    width: 45%;
+    margin-left: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.Hambuguer_menu {
+    background: var(--bg-color) !important;
+}
+
+
+/*Responsive*/
+
+@media (max-width: 320px){
+    
+}
+@media (max-width: 440px){
+    
+   
+} 
+@media (max-width: 500px){
+    
+}
+@media (max-width: 600px){
+    
+   
+} 
+@media (max-width: 767px){
+    
+
+} 
+@media (max-width: 900px){
+}
+@media (max-width: 1023px){
+    
+}
+@media (max-width: 1224px){
+}
+@media (max-width: 1424px){
+}
