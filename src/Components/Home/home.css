@@ -2,67 +2,153 @@
     display: flex;
     width: 100%;
     justify-content: center;
-}
-.container_1, .container_2 {
-       width: 50%;
-       margin-left: 2rem;
-       
-
-
+    align-items: center;
+    overflow: hidden;
+    position: relative;
 }
 
+.container_1 {
+    margin-left: 10rem; 
+    width: 55%;
+    z-index: 10;
+}
+
+.container_2 {
+    width: 45%;
+    z-index: 10;
+}
 
 #code {
-       width: 60%;
+    width: 80vh;
+    margin-right: 10rem;
 }
 
-button {
- --glow-color: rgb(217, 176, 255);
- --glow-spread-color: rgba(191, 123, 255, 0.781);
- --enhanced-glow-color: rgb(231, 206, 255);
- --btn-color: rgb(100, 61, 136);
- border: .25em solid var(--glow-color);
- padding: 1em 3em;
- color: var(--glow-color);
- font-size: 15px;
- font-weight: bold;
- background-color: var(--btn-color);
- border-radius: 1em;
- outline: none;
- box-shadow: 0 0 1em .25em var(--glow-color),
-        0 0 4em 1em var(--glow-spread-color),
-        inset 0 0 .75em .25em var(--glow-color);
- text-shadow: 0 0 .5em var(--glow-color);
- position: relative;
- transition: all 0.3s;
+.Titles > h1 {
+    font-size: 3.8rem;
 }
 
-button::after {
- pointer-events: none;
- content: "";
- position: absolute;
- top: 120%;
- left: 0;
- height: 100%;
- width: 100%;
- background-color: var(--glow-spread-color);
- filter: blur(2em);
- opacity: .7;
- transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
-}
+.Titles > h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
 
-button:hover {
- color: var(--btn-color);
- background-color: var(--glow-color);
- box-shadow: 0 0 1em .25em var(--glow-color),
-        0 0 4em 2em var(--glow-spread-color),
-        inset 0 0 .75em .25em var(--glow-color);
 }
+#Btn {
+    position: relative;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 3px solid var(--second-color);
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    background: transparent;
+    color: var(--color-text);
+    overflow: hidden;
+    box-shadow: 0 0 0 0 transparent;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+  }
+  
+  #Btn:hover {
+    background: var(--second-color);
+    box-shadow: 0 0 30px 5px rgba(0, 142, 236, 0.815);
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+  }
+  
+  #Btn:hover::before {
+    -webkit-animation: sh02 0.5s 0s linear;
+    -moz-animation: sh02 0.5s 0s linear;
+    animation: sh02 0.5s 0s linear;
+  }
+  
+  #Btn::before {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 86%;
+    position: absolute;
+    top: 7%;
+    left: 0%;
+    opacity: 0;
+    background: #fff;
+    box-shadow: 0 0 50px 30px #fff;
+    -webkit-transform: skewX(-20deg);
+    -moz-transform: skewX(-20deg);
+    -ms-transform: skewX(-20deg);
+    -o-transform: skewX(-20deg);
+    transform: skewX(-20deg);
+  }
+  
+  @keyframes sh02 {
+    from {
+      opacity: 0;
+      left: 0%;
+    }
+  
+    50% {
+      opacity: 1;
+    }
+  
+    to {
+      opacity: 0;
+      left: 100%;
+    }
+  }
+  
+  #Btn:active {
+    box-shadow: 0 0 0 0 transparent;
+    -webkit-transition: box-shadow 0.2s ease-in;
+    -moz-transition: box-shadow 0.2s ease-in;
+    transition: box-shadow 0.2s ease-in;
+  }
 
-button:active {
- box-shadow: 0 0 0.6em .25em var(--glow-color),
-        0 0 2.5em 2em var(--glow-spread-color),
-        inset 0 0 .5em .25em var(--glow-color);
-}
+  .figure {
+    display: flex !important;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: absolute; 
+    z-index: 5;
+    }
 
+    .figure_2 {
+    display: flex !important;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: absolute; 
+    top: 4rem;
+    left: 4rem;
+    z-index: 5;
+    }
+
+    .figure_3 {
+        display: flex !important;
+        width: 100%;
+        justify-content: flex-start;
+        align-items: flex-start;
+        position: absolute; 
+        top: 12rem;
+        left: 4rem;
+        z-index: 5;
+    }
+
+    .figure_4 {
+        display: flex !important;
+        width: 100%;
+        justify-content: flex-start;
+        align-items: flex-start;
+        position: absolute; 
+        top: 4rem;
+        left: 30rem;
+        z-index: 5;
+    }
+    
+  
+    #wave {
+        width: 70%;
+    }
 
