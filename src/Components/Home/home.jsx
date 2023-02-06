@@ -33,7 +33,6 @@ const home = () => {
         <img  src={Blossom_Pink} alt="" />
       </div>
 
-
     </div>
   )
 }

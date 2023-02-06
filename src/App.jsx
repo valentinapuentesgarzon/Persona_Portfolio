@@ -18,8 +18,8 @@ function App() {
     
       <Header/>
       <Home/>
-      <Skills/>
       <About_me/>
+      <Skills/>
       <Projects/>
       <Contact/>
       <Footer/>

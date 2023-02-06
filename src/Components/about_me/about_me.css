@@ -1,0 +1,148 @@
+#Box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+#Avatar {
+    width: 53%;
+}
+
+.section {
+    display: flex;
+    width: 100%;
+}
+
+.section_1, .section_2 {
+    width: 50%;
+    padding: 2rem;
+}
+
+.section_1 {
+    display: flex;
+    justify-content: center;
+}
+
+.titles {
+    margin-bottom: 4rem;
+}
+
+.sub_section_2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#icon {
+    width: 20%;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.figure_11{
+    display: flex !important;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: absolute;
+    z-index: -1;  
+    top: 2.5rem;
+    left: 25rem;
+}
+
+.figure_12{
+    display: flex !important;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: absolute;
+    z-index: -1;  
+    top: 20rem;
+    left: 25rem;
+}
+
+.figure_13{
+    display: flex !important;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: flex-end;
+    position: absolute;
+    z-index: -1;  
+    top: 30rem;
+    left: 6rem;
+}
+
+.figure_14{
+    display: flex !important;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: absolute;
+    z-index: -1;  
+    top:5rem;
+    left: 2rem;
+}
+
+.figure_15{
+    display: flex !important;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: absolute;
+    z-index: -1;  
+    top: 38rem;
+    right: 2rem;
+}
+
+#curve_1 {
+    width: 10vh;
+}
+
+
+.figure_16{
+    display: flex !important;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: absolute;
+    z-index: -1;  
+    top:-2rem;
+    left: 10rem;
+    
+}
+
+.figure_17{
+    display: flex !important;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: absolute;
+    z-index: -1;  
+    top: 35rem;
+    right: 6rem;
+}
+
+#circle_2 {
+    width: 5vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+

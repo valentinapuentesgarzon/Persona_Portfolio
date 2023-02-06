@@ -1,0 +1,82 @@
+#Content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+
+.figure_5{
+    display: flex !important;
+    width: 40%;
+    justify-content: flex-end;
+    align-items: flex-start;
+    position: absolute; 
+    z-index: -1;
+    top: -4rem;
+    right: -4rem;
+}
+
+.figure_6{
+    display: flex !important;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: flex-end;
+    position: absolute; 
+    z-index: -1;
+    left: 6rem;
+    top: 1rem;
+}
+
+.figure_7{
+    display: flex !important;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: flex-end;
+    position: absolute; 
+    z-index: -1;
+    left: 8rem;
+    top: 2rem;
+}
+
+.figure_8{
+    display: flex !important;
+    width: 100%;
+    justify-content: flex-start;
+    position: absolute; 
+    z-index: -1;
+    top: 13rem;
+    left: 2rem;
+  
+}
+
+.figure_9{
+    display: flex !important;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-start;
+    position: absolute; 
+    z-index: -1;
+    top: 8rem;
+}
+
+.figure_10{
+    display: flex !important;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: flex-start;
+    position: absolute;
+    z-index: -1;
+    top: -1rem;
+    right: 15rem;
+    
+}
+
+
+
+
+
+
