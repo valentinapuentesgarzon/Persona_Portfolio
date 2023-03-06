@@ -1,0 +1,84 @@
+.Container_c {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.container_c1 {
+    width: 60%;
+    margin-left: 10rem;
+}
+
+#message {
+    font-size: 1.5rem !important;
+}
+
+.container_c2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 40%;
+}
+
+#Avatar_2{
+    width: 75%;
+}
+
+#input, #input_m {
+  background-color: var(--bg-color);  
+  border: solid 2px var(--second-color);
+  border-radius: 2rem;
+  color: var(--color-text);
+  font-family: 'Barlow', sans-serif;
+}
+
+#input {
+    height: 3rem;
+}
+
+
+.BTN_c {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 2rem;
+}
+
+.figure_20{
+    display: flex !important;
+    width: 100%;
+    justify-content: flex-start;
+    position: absolute;
+    z-index: -1;
+    top: 25rem; 
+    left: 1rem; 
+    
+}
+
+
+.figure_21{
+    display: flex !important;
+    width: 100%;
+    justify-content: start;
+    position: absolute;
+    z-index: -1; 
+    top: 35rem; 
+    left: 1rem;  
+    
+}
+
+.figure_22{
+    display: flex !important;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: flex-end;
+    position: absolute;
+    z-index: -1;  
+    top: 17rem; 
+    left: 2rem;
+    
+}
+
+
+
+
