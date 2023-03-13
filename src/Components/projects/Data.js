@@ -39,7 +39,8 @@ export const Data = [
         id:5,
         Name: "Rick and Morty API REST",
         img: RickAndMorty,
-        git: "https://github.com/valentinapuentesgarzon/react-rick-and-morty"
+        git: "https://github.com/valentinapuentesgarzon/rick-and-morty-api",
+        
     },
     {
         id:6,

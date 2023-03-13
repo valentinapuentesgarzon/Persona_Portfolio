@@ -34,7 +34,7 @@ const projects = () => {
                                     <AiFillGithub/>
                                 </Button>
                                 <Button id='Btn' className='Boton'>
-                                    <MdWebAsset/>   
+                                    <MdWebAsset/>
                                 </Button>
                             </CardActions>
                         </Card>

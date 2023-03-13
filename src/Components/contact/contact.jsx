@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './contact.css'
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
@@ -9,8 +9,50 @@ import circle from '../../assets/Contact/circle.png'
 import Blossom_blue from '../../assets/Home/blossom_blue.png';
 import Blossom_Pink from '../../assets/Home/blossom_pink.png';
 
+import emailjs from "emailjs-com"
+import swal from 'sweetalert';
+import React, { useState } from 'react';
+
 function contact() {
-  
+  //Email JS AUTH
+  emailjs.init("elzEwAqLAGUz1Kgbs");
+
+  //form vars
+  const [to, setTo] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
+
+        //form data
+  const handleChangeName = (e) => {
+      setTo(e.target.value);
+  }
+  const handleChangeEmail = (e) => {
+      setEmail(e.target.value);
+  }
+  const handleChangeMessage = (e) => {
+      setMessage(e.target.value);
+  }
+
+//email js
+  function emailDatSend (){
+      emailjs.send('service_5zwx8jd', 'template_am8y4td', { //service id - template id
+      to,
+      email,
+      message
+    }, 'elzEwAqLAGUz1Kgbs') //user id
+      .then(() => {
+        //sweet alert send popup {
+        swal("Email enviado correctamente", "Dentro de poco estare en contacto contigo", "success")
+      })
+      .catch(() =>{
+          //sweet alert error popup
+          swal("No se pudo enviar el email", "revisa los datos escritos e intenta nuevamente mas tarde", "error")})
+
+      setTo("")
+      setEmail("")
+      setMessage("")
+  }
+
   return (
     <div className='Container_c' id='contact'>
       <div className="container_c1">
@@ -19,27 +61,34 @@ function contact() {
           <p id='message'>¡Tomemos un café virtual! <br></br> Hablemos de proyectos, ofertas o solo intercambiemos conocimientos</p>
         </div>
         
-        <Form >
+        <Form onSubmit={emailDatSend} >
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Label  id='message'>NOMBRE</Form.Label>
-          <Form.Control name='nombre' id='input'type="text" placeholder="Escribe tu nombre" />
+          <Form.Control 
+          onChange={handleChangeName}
+          id='input'
+          type="text" 
+          placeholder="Escribe tu nombre" />
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Label name='correo' id='message'>CORREO</Form.Label>
-          <Form.Control name='correo' id='input' type="email" placeholder="Escribe tu correo" />
+          <Form.Control 
+            onChange={handleChangeEmail}
+            id='input' 
+            type="email"
+            placeholder="Escribe tu correo" />
         </Form.Group>
 
-        <Form.Group className="mb-3" controlId="formBasicEmail">
-          <Form.Label id='message'>ASUNTO</Form.Label>
-          <Form.Control name='asunto' id='input' type="text" placeholder="Escribe tu asunto" />
-        </Form.Group>
-
-        
-
+    
         <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
           <Form.Label id='message'>MENSAJE</Form.Label>
-          <Form.Control name='mensaje' id='input_m' as="textarea" rows={5} placeholder="Escribe tu mensaje"/>
+          <Form.Control 
+          onChange={handleChangeMessage}
+          id='input_m' 
+          as="textarea" 
+          rows={5} 
+          placeholder="Escribe tu mensaje"/>
         </Form.Group>
 
         <div className="BTN_c">
