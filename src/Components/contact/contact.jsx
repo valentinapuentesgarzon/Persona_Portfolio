@@ -8,12 +8,6 @@ import curve_2 from '../../assets/Contact/curve_2.png'
 import circle from '../../assets/Contact/circle.png'
 import Blossom_blue from '../../assets/Home/blossom_blue.png';
 import Blossom_Pink from '../../assets/Home/blossom_pink.png';
-import { useRef } from 'react';
-
-
-
-
-
 
 function contact() {
   

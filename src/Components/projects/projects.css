@@ -1,0 +1,35 @@
+.cardBox{
+    display: grid;
+    grid-template-columns: 
+      repeat(auto-fit, 
+      minmax(300px, 1fr)
+      );
+    place-items: center;
+    margin: 2rem 10rem 2rem 10rem;
+    width: 80%;
+    gap: 3rem;
+    border: 3px solid var(--second-color);
+    border-radius: 1rem;
+    padding: 4rem 6rem;
+ }  
+
+#Card:hover{
+    transform: scale(1.1);
+}
+
+#Card {
+    border-radius: 1rem;
+}
+
+#actionsBox{
+  background-color: black;
+  max-height: 6rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.Boton {
+  font-size: 20px !important;
+}
+
