@@ -19,7 +19,7 @@ import FRAME from '../../../assets/Skills/react.png'
 import Bootstrap from '../../../assets/Skills/bootstrap.png'
 import Figma from '../../../assets/Skills/figma.png'
 import XD from '../../../assets/Skills/adobe.png'
-import git from '../../../assets/Skills/Git.png'
+import git from '../../../assets/Skills/git.png'
 import github from '../../../assets/Skills/git_hub.png'
 import Node from '../../../assets/Skills/Node.png'
 
