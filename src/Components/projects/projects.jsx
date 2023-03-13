@@ -31,10 +31,10 @@ const projects = () => {
                             </CardContent>
                             <CardActions id='actionsBox'>
                                 <Button id='Btn' className='Boton'>
-                                    <AiFillGithub/>
+                                    <a href={item.git} target="_blank"><AiFillGithub/></a>
                                 </Button>
                                 <Button id='Btn' className='Boton'>
-                                    <MdWebAsset/>
+                                    <a href={item.web} target="_blank"><MdWebAsset/></a>
                                 </Button>
                             </CardActions>
                         </Card>

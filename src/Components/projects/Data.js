@@ -13,7 +13,8 @@ export const Data = [
         id:1,
         Name: "Ecommerce QORA",
         img: QORA,
-        git: "https://github.com/valentinapuentesgarzon/-eCommerce-Qora"
+        git: "https://github.com/valentinapuentesgarzon/-eCommerce-Qora",
+        web:"https://qora-ecommercce.netlify.app/"
     },
     {
         id:2,
@@ -29,17 +30,13 @@ export const Data = [
         git: "https://github.com/valentinapuentesgarzon/Calculator",
         web: "https://calculator1-0.netlify.app/"
     },
-    {
-        id:4,
-        Name: "BakeryInk Blog",
-        img: Bakery,
-        git: "https://github.com/valentinapuentesgarzon/Bakery-ink"
-    },
+   
     {
         id:5,
         Name: "Rick and Morty API REST",
         img: RickAndMorty,
         git: "https://github.com/valentinapuentesgarzon/rick-and-morty-api",
+        web: "https://rick-and-morty-api-rest.netlify.app/"
         
     },
     {
@@ -52,7 +49,9 @@ export const Data = [
     {
         id:7,
         Name: "Bad Jokes API",
-        img: badJokeApi
+        img: badJokeApi,
+        git: "https://github.com/valentinapuentesgarzon/Bad.Joke.Generator.API",
+        web:"https://bad-joke-generator-api.netlify.app/"
 
     },
  
@@ -61,14 +60,17 @@ export const Data = [
         id:9,
         Name: "404 Error Pages",
         img: Error,
-        git: "https://github.com/valentinapuentesgarzon/Error-404"
+        git: "https://github.com/valentinapuentesgarzon/Error-404",
+        web: "https://error404-sleeping.netlify.app/"
+        
     },
 
     {
         id:10,
         Name: "Portafolio React Example",
         img: Error,
-        git: "https://github.com/valentinapuentesgarzon/Portfolio-react-example"
+        git: "https://github.com/valentinapuentesgarzon/Portfolio-react-example",
+        web:""
     }
 
 ]
