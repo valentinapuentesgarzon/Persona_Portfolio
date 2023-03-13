@@ -32,7 +32,7 @@ export const Data = [
     },
    
     {
-        id:5,
+        id:4,
         Name: "Rick and Morty API REST",
         img: RickAndMorty,
         git: "https://github.com/valentinapuentesgarzon/rick-and-morty-api",
@@ -40,14 +40,14 @@ export const Data = [
         
     },
     {
-        id:6,
+        id:5,
         Name: "Aggretsuko API REST",
         img: Aggretsuko,
         git: "https://github.com/valentinapuentesgarzon/Aggretsuko-Api",
         web: "https://aggretsuko-api.onrender.com/App/Characters"
     },
     {
-        id:7,
+        id:6,
         Name: "Bad Jokes API",
         img: badJokeApi,
         git: "https://github.com/valentinapuentesgarzon/Bad.Joke.Generator.API",
@@ -57,7 +57,7 @@ export const Data = [
  
 
     {
-        id:9,
+        id:7,
         Name: "404 Error Pages",
         img: Error,
         git: "https://github.com/valentinapuentesgarzon/Error-404",
@@ -66,7 +66,7 @@ export const Data = [
     },
 
     {
-        id:10,
+        id:8,
         Name: "Portafolio React Example",
         img: Error,
         git: "https://github.com/valentinapuentesgarzon/Portfolio-react-example",
