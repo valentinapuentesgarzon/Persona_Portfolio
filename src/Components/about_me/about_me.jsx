@@ -8,7 +8,7 @@ import Blossom_Pink from '../../assets/Home/blossom_pink.png';
 import curve_left_1 from '../../assets/About_me/curve_left_1.png'
 import curve_left_2 from '../../assets/About_me/curve_left_2.png'
 import circle_left_1 from '../../assets/About_me/circle_left_1.png';
-import CV from '../../assets/About_me/CV/CV.pdf';
+import CV from '../../assets/About_me/CV/CV.VALENTINA.PUENTES.GARZÓN.pdf';
 
 
 
@@ -27,7 +27,10 @@ const about_me = () => {
         <div className="section_2">
           <div className="titles">
           <h3 id='Neon_text2'>VALENTINA PUENTES</h3>
-            <p>Profesional con formación continua como desarrolladora web Front end. Con experiencia en la creación de páginas web responsive y funcionales, mis proyectos se han enfocado en la creación de un E-commerce, manejando las funcionalidades de carrito de compras, dashboard de administrador (CRUD), y diseño de la interfaz basado en la experiencia de usuario. Tengo conocimientos en JavaScript, React, Node Js, HTML, CSS, Bootstrap, Figma, y Adobe XD. Caracterizada por ser creativa, adaptable, proactiva,  de pensamiento crítico e innovador, y buenas habilidades de trabajo en equipo, baso mi flujo de trabajo metodologías ágiles como SCRUM y Design Thinking.  </p>
+            <p>¡Hola! Soy desarrolladora Front end en continuo aprendizaje. He tenido la oportunidad de crear plataformas web como E-commerce, landing page y administrativas, garantizando las funcionalidades de selección de productos, dashboard de administrador (CRUD), y diseño de la interfaz basado en la experiencia de usuario. <br/><br/>
+            Tengo conocimientos en JavaScript, React, Node Js, HTML, CSS, Bootstrap, Figma, y Adobe XD. Soy una persona creativa, adaptable, proactiva, de pensamiento crítico e innovador, y buenas habilidades de trabajo en equipo, baso mi flujo de trabajo metodologías ágiles como SCRUM y Design Thinking.
+            </p>
+
           </div>
 
           <div className="sub_section_2">

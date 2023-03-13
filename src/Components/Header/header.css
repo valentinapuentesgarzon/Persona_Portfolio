@@ -1,4 +1,9 @@
 
+.mb-3.active{
+background-color: var(--bg-color);
+}
+
+
 #Nav {
     color: var(--color-text) !important; 
     font-size: 1.2rem;

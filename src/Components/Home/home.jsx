@@ -10,7 +10,7 @@ import { Link, animateScroll as scroll } from "react-scroll";
 
 const home = () => {
   return (
-    <div className='Container'id='home'>
+    <div className='Container' id='home'>
       <div className="container_1">
         <div className="Titles">
           <h3>¡Hola Mundo!</h3>

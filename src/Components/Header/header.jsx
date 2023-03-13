@@ -1,22 +1,30 @@
 import React, { useState } from 'react'
-
 import Container from 'react-bootstrap/Container';
-
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import './header.css'
 import Logo from '../../assets/Header/logo.png'
-
 import { Link, animateScroll as scroll } from "react-scroll";
 
 function OffcanvasExample() {
-  const [activeNav, setActiveNav] = useState ('')
+  const [activeNav, setActiveNav] = useState ('');
+  const [navBar, setNavBar] = useState (false);
+
+  const changeBackGround = () => {
+      if(window.scrollY >= 72) {
+        setNavBar (true)
+      } else {
+        setNavBar (false)
+      }
+  }
+
+ window.addEventListener('scroll', changeBackGround)
+
   return (
     <>
       {['md'].map((expand) => (
-        <Navbar key={expand}  expand={expand} className="mb-3" fixed='top' >
+        <Navbar  key={expand}  expand={expand} className={navBar ? 'mb-3 active' : 'mb-3'} fixed='top' >
           <Container fluid>
             <Navbar.Brand href="#home" ><img id='Logo' src={Logo} alt="Logo" /></Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />

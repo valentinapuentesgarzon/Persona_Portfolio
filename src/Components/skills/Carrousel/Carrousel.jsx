@@ -19,8 +19,10 @@ import FRAME from '../../../assets/Skills/react.png'
 import Bootstrap from '../../../assets/Skills/bootstrap.png'
 import Figma from '../../../assets/Skills/figma.png'
 import XD from '../../../assets/Skills/adobe.png'
-import git from '../../../assets/Skills/git.png'
+import git from '../../../assets/Skills/Git.png'
 import github from '../../../assets/Skills/git_hub.png'
+import Node from '../../../assets/Skills/Node.png'
+
 
 export default function Carrousel() {
   return (
@@ -75,6 +77,9 @@ export default function Carrousel() {
         </SwiperSlide>
         <SwiperSlide>
           <img src={github} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={Node} />
         </SwiperSlide>
       </Swiper>
     </>

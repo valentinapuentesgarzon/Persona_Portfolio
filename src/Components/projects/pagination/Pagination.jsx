@@ -1,7 +1,8 @@
-import { Pagination } from "@mui/material";
+import Pagination from '@mui/material/Pagination';
 import { Box } from "@mui/system";
 import { useEffect, useState } from "react";
 import service from "../services/services";
+import '../../projects/projects.css'
 
 const pageSize = 3; //How many cards it going to show
 
@@ -29,12 +30,13 @@ export default function AppPagination ({setCard}) {
 
 
     return (
-        <Box justifyContent={"center"} alignItems={"center"} display={"flex"}
+        <Box  justifyContent={"center"} alignItems={"center"} display={"flex"}
         sx= {{
             margin: "20px 0px"
         }}
         >
             <Pagination
+                className='Pagination'
                 color="primary"
                 count={Math.ceil(pagination.count/ pageSize)}
                 onChange={handlePageChange}

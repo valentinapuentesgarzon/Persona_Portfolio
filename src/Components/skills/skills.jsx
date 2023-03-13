@@ -14,7 +14,7 @@ import Blossom_Pink from '../../assets/Home/blossom_pink.png';
 const skills = () => {
   return (
     <div id='Content' className='skills'>
-      <h2 id='Neon_text'>SKILLS</h2>
+      <h2 id='Neon_text'>HABILIDADES</h2>
       <Carrousel/>
       <div className="figure_5">
         <img id='triangule' src={triangule} alt="" />
