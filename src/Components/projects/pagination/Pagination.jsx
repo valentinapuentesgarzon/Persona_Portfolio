@@ -8,6 +8,8 @@ const pageSize = 3; //How many cards it going to show
 
 export default function AppPagination ({setCard}) {
 
+
+
    const [pagination, setPagination] = useState ({
         count: 0,
         from: 0,
@@ -37,9 +39,9 @@ export default function AppPagination ({setCard}) {
         >
             <Pagination
                 className='Pagination'
-                color="primary"
                 count={Math.ceil(pagination.count/ pageSize)}
                 onChange={handlePageChange}
+                
                 />
                 
         </Box>

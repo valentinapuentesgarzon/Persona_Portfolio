@@ -1,11 +1,11 @@
 import QORA from '../../assets/Projects/QORA.png'
 import Wheel from '../../assets/Projects/Wheel-of-DOM.png'
 import Calculator from '../../assets/Projects/Calculator.png'
-import Bakery from '../../assets/Projects/Bakery-Ink.png'
 import RickAndMorty from '../../assets/Projects/Rick-and-morty.png'
 import Aggretsuko from '../../assets/Projects/Aggretsuko.png'
 import badJokeApi from '../../assets/Projects/bad-joke-api.png'
 import Error from '../../assets/Projects/404Error.png'
+import Todo from '../../assets/Projects/toDo.png'
 
 
 export const Data = [
@@ -67,10 +67,10 @@ export const Data = [
 
     {
         id:8,
-        Name: "Portafolio React Example",
-        img: Error,
+        Name: "Todo List",
+        img: Todo,
         git: "https://github.com/valentinapuentesgarzon/Portfolio-react-example",
-        web:""
+        web:"https://to-do-a-list.netlify.app/"
     }
 
 ]
