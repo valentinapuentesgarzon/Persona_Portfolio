@@ -22,19 +22,44 @@ const projects = () => {
 
                         <Card id='Card' sx={{ width: 300 }}>
                             <CardMedia
-                                sx={{ height: 200 }}
+                                sx={{
+                                    height: '200px',
+                                    '@media (min-width: 2560px)': {
+                                      height: '250px',
+                                      width :'300px'
+                                    },
+                                    '@media (max-width: 1440px)': {
+                                        height: '250px',
+                                        width :'300px'
+                                    },
+                                    '@media (max-width: 768px)': {
+                                        height: '200px',
+                                        width :'300px'
+                                    },
+                                    '@media (max-width: 425px)': {
+                                        height: '100px',
+                                    },
+                                    '@media (max-width: 375px)': {
+                                        height: '200px',
+                                        width :'500px'
+                                      },
+                                    '@media (max-width: 320px)': {
+                                        height: '200px',
+                                        width :'300px'
+                                      },
+                                  }}
                                 image={item.img}
                                 title={item.Name}
                             />
                             <CardContent id='actionsBox'>
-                                <h2 id='Neon_text2'>{item.Name}</h2>
+                                <h2 id='Neon_text2' className='text-p'>{item.Name}</h2>
                             </CardContent>
-                            <CardActions id='actionsBox'>
-                                <Button id='Btn' className='Boton'>
-                                    <a href={item.git} target="_blank"><AiFillGithub/></a>
+                            <CardActions id='actionsBox-btn'>
+                                <Button className='Boton'>
+                                    <a id='Btn-p' href={item.git} target="_blank"><AiFillGithub/></a>
                                 </Button>
-                                <Button id='Btn' className='Boton'>
-                                    <a href={item.web} target="_blank"><MdWebAsset/></a>
+                                <Button className='Boton'>
+                                    <a id='Btn-p' href={item.web} target="_blank"><MdWebAsset/></a>
                                 </Button>
                             </CardActions>
                         </Card>
