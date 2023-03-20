@@ -32,32 +32,91 @@ background-color: var(--bg-color);
 }
 
 
-/*Responsive*/
 
-@media (max-width: 320px){
-    
-}
-@media (max-width: 440px){
-    
-   
-} 
-@media (max-width: 500px){
-    
-}
-@media (max-width: 600px){
-    
-   
-} 
-@media (max-width: 767px){
-    
 
-} 
-@media (max-width: 900px){
+@media (min-width: 2560px) {
+
+    #Logo {
+        width: 60%;
+        margin-left: 2rem;
+        margin-top: 1rem;
+    }
+
+    #Nav {
+        font-size: 2.5rem;
+    }
+
 }
-@media (max-width: 1023px){
-    
+
+@media (max-width: 1440px) {
+
+    #Logo {
+        width: 60%;
+        margin-left: 2rem;
+        margin-top: 1rem;
+    }
+
+    #Nav {
+        font-size: 2rem;
+    }
+
 }
-@media (max-width: 1224px){
+
+@media (max-width: 768px) {
+
+    #Logo {
+        width: 40%;
+        margin-left: 2rem;
+        margin-top: 1rem;
+    }
+
+    #Nav {
+        font-size: 1rem;
+    }
+
 }
-@media (max-width: 1424px){
+
+@media (max-width: 425px) {
+
+    #Logo {
+        width: 40%;
+        margin-left: 2rem;
+        margin-top: 0.5rem;
+    }
+
+    #Nav {
+        font-size: 1rem;
+    }
+
 }
+
+@media (max-width: 375px) {
+
+    #Logo {
+        width: 30%;
+        margin-left: 2rem;
+        margin-top: 0.5rem;
+    }
+
+    #Nav {
+        font-size: 1rem;
+    }
+
+}
+
+@media (max-width: 320px) {
+
+    #Logo {
+        width: 30%;
+        margin-left: 2rem;
+        margin-top: 0.5rem;
+    }
+
+    #Nav {
+        font-size: 1rem;
+    }
+
+}
+
+
+

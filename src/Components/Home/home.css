@@ -84,3 +84,452 @@
         width: 70%;
     }
 
+    @media (min-width: 2560px) {
+
+        .Container {
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        #home{
+            margin-top: 5rem;
+        }
+        
+        .container_1 {
+            margin-left: 10rem; 
+            width: 50%;
+            z-index: 10;
+        }
+        
+        .container_2 {
+            width: 50%;
+            z-index: 10;
+        }
+        
+        #code {
+            width: 70vh;
+            margin-right: 10rem;
+            margin-top: 2rem;
+        }
+        
+        .Titles > h1 {
+            font-size: 8rem;
+        }
+        
+        .Titles > h2 {
+            font-size: 4rem;
+            margin-bottom: 2rem;
+        
+        }
+
+        .Titles > h3 {
+            font-size: 5rem;
+        }
+        
+          .figure {
+            margin-top: 4rem;
+            }
+        
+            .figure_2 {
+            top: 4rem;
+            left: 4rem;
+            }
+        
+            .figure_3 {
+                top: 20rem;
+                left: 1rem;
+                z-index: 5;
+                display: none;
+            }
+        
+            .figure_4 {
+                top: 4rem;
+                left: 50rem;
+            }
+        
+            #wave {
+                width: 70%;
+            }
+
+            #Circle {
+                width: 10%;
+            }
+
+            #Blossom {
+                width: 15%;
+            }
+
+    }
+
+    @media (max-width: 1440px) {
+
+        #home{
+            margin-top: 8rem;
+        }
+
+        .container_1 {
+            margin-left: 10rem; 
+            width: 50%;
+            z-index: 10;
+        }
+        
+        .container_2 {
+            width: 50%;
+            z-index: 10;
+        }
+        
+        #code {
+            width: 45vh;
+            margin-right: 10rem;
+            margin-top: 1rem;
+        }
+        
+        .Titles > h1 {
+            font-size: 5rem;
+        }
+        
+        .Titles > h2 {
+            font-size: 3rem;
+            margin-bottom: 2rem;
+        
+        }
+
+        .Titles > h3 {
+            font-size: 3rem;
+        }
+        
+          .figure {
+            margin-top: 10rem;
+            }
+        
+            .figure_2 {
+            top: 1rem;
+            left: 4rem;
+            }
+        
+            .figure_3 {
+                top: 13rem;
+                left: -2rem;
+            }
+        
+            .figure_4 {
+                top: 3rem;
+                left: 22rem;
+            }
+        
+            #wave {
+                width: 70%;
+            }
+
+            #Circle {
+                width: 10%;
+            }
+
+            #Blossom {
+                width: 25%;
+            }
+
+    }
+
+    @media (max-width: 1024px) {
+
+        #home{
+            margin-top: 11rem;
+        }
+
+        .container_1 {
+            margin-left: 10rem; 
+            width: 100%;
+            z-index: 10;
+        }
+        
+        .container_2 {
+            width: 50%;
+            z-index: 10;
+        }
+        
+        #code {
+            display:none
+        }
+        
+        .Titles > h1 {
+            font-size: 4.5rem;
+        }
+        
+        .Titles > h2 {
+            font-size: 3rem;
+            margin-bottom: 2rem;
+        
+        }
+
+        .Titles > h3 {
+            font-size: 3rem;
+        }
+        
+          .figure {
+            margin-top: 5rem;
+            }
+        
+            .figure_2 {
+            top: -1rem;
+            left: 4rem;
+            }
+        
+            .figure_3 {
+                top: 7rem;
+                left: 2rem;
+            }
+        
+            .figure_4 {
+                top: -3rem;
+                left: 28rem;
+            }
+        
+            #wave {
+                width: 60%;
+            }
+
+            #Circle {
+                width: 15%;
+            }
+
+            #Blossom {
+                width: 20%;
+            }
+
+    }
+
+    @media (max-width: 768px) {
+
+        #home{
+            margin-top: 8rem;
+        }
+
+        
+        .Titles > h1 {
+            font-size: 3rem;
+        }
+        
+        .Titles > h2 {
+            font-size: 2rem;
+            margin-bottom: 2rem;
+        
+        }
+
+        .Titles > h3 {
+            font-size: 1.5rem;
+        }
+        
+          .figure {
+            margin-top: 3rem;
+            }
+        
+            .figure_2 {
+            top: 1rem;
+            left: 5rem;
+            }
+        
+            .figure_3 {
+                top: 7rem;
+                left: 2rem;
+            }
+        
+            .figure_4 {
+                top: -2rem;
+                left: 28rem;
+            }
+        
+            #wave {
+                width: 80%;
+            }
+
+            #Circle {
+                width: 15%;
+            }
+
+            #Blossom {
+                width: 20%;
+            }
+
+    }
+
+    @media (max-width: 430px) {
+
+        #home{
+            margin-top: 8rem;
+        }
+
+        .container_1 {
+            margin-left: 4rem; 
+        }
+
+        .Titles > h1 {
+            font-size: 2rem;
+        }
+        
+        .Titles > h2 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        
+        }
+
+        .Titles > h3 {
+            font-size: 1rem;
+        }
+        
+          .figure {
+            margin-top: 2rem;
+            }
+        
+            .figure_2 {
+            top: 0rem;
+            left: 1rem;
+            }
+        
+            .figure_3 {
+                top: 7rem;
+                left: 2rem;
+            }
+        
+            .figure_4 {
+                top: -1rem;
+                left: 16rem;
+            }
+        
+            #wave {
+                width: 80%;
+            }
+
+            #Circle {
+                width: 20%;
+            }
+
+            #Blossom {
+                width: 20%;
+            }
+
+    }
+
+    @media (max-width: 375px) {
+
+        #home{
+            margin-top: 8rem;
+        }
+
+        .container_1 {
+            margin-left: 4rem; 
+        }
+
+        .Titles > h1 {
+            font-size: 2rem;
+        }
+        
+        .Titles > h2 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        
+        }
+
+        .Titles > h3 {
+            font-size: 1rem;
+        }
+        
+          .figure {
+            margin-top: 3rem;
+            }
+        
+            .figure_2 {
+            top: 0rem;
+            left: 1rem;
+            }
+        
+            .figure_3 {
+                top: 7rem;
+                left: 2rem;
+            }
+        
+            .figure_4 {
+                top: -1rem;
+                left: 16rem;
+            }
+        
+            #wave {
+                width: 80%;
+            }
+
+            #Circle {
+                width: 20%;
+            }
+
+            #Blossom {
+                width: 20%;
+            }
+
+    }
+
+    @media (max-width: 320px) {
+
+        #home{
+            margin-top: 8rem;
+        }
+
+        .container_1 {
+            margin-left: 4rem; 
+        }
+
+        .Titles > h1 {
+            font-size: 1.3rem;
+        }
+        
+        .Titles > h2 {
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+        
+        }
+
+        .Titles > h3 {
+            font-size: 0.8rem;
+        }
+        
+          .figure {
+            margin-top: 4rem;
+            }
+        
+            .figure_2 {
+            top: 0rem;
+            left: 1rem;
+            }
+        
+            .figure_3 {
+                top: 7rem;
+                left: 2rem;
+            }
+        
+            .figure_4 {
+                top: -1rem;
+                left: 16rem;
+            }
+        
+            #wave {
+                width: 80%;
+            }
+
+            #Circle {
+                width: 20%;
+            }
+
+            #Blossom {
+                width: 20%;
+            }
+
+    }
+
+ 
+
+       
+        
+        

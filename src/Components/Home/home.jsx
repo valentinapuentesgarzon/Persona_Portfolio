@@ -32,10 +32,10 @@ const home = () => {
         <img id='Circle' src={Circle} alt="" />
       </div>
       <div className="figure_3">
-        <img  src={Blossom_blue} alt="" />
+        <img  id= 'Blossom' src={Blossom_blue} alt="" />
       </div>
       <div className="figure_4">
-        <img  src={Blossom_Pink} alt="" />
+        <img id= 'Blossom' src={Blossom_Pink} alt="" />
       </div>
 
     </div>
