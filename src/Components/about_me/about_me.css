@@ -43,9 +43,6 @@
     flex-direction: column;
 }
 
-#icon {
-    width: 55%;
-}
 
 #icon:hover {
     transform: scale(1.5);
@@ -150,30 +147,474 @@
 }
 
 @media (min-width: 2560px) {
+
+    .icons {
+        font-size: 40px;
+        gap: 2rem;
+    }
+
+    #Avatar {
+        width: 60%;
+    }
     
+    .section_1{
+        width: 40%;
+        padding: 1rem;
+    }
+    
+    .section_2  {
+        width: 60%;
+        padding: 1rem;
+    }
+    
+    
+    .figure_11{
+        top: 4rem;
+        left: 40rem;
+    }
+    
+    .figure_12{
+        top: 35rem;
+        left: 45rem;
+    }
+    
+    .figure_13{
+        top: 50rem;
+        left: 6rem;
+    }
+    
+    .figure_14{
+        top:10rem;
+        left:2rem;
+    }
+    
+    .figure_15{
+        top: 75rem;
+        right: 2rem;
+    }
+    
+    #curve {
+        width: 12vh;
+    }
+    
+    .figure_16{
+        top:0rem;
+        left: 10rem;
+        
+    }
+    
+    .figure_17{
+        top: 70rem;
+        right: 8rem;
+    }
+    
+    #circle_2 {
+        width: 5vh;
+    }
+
 }
 
 @media (max-width: 1440px) {
 
-}
+    .icons {
+        font-size: 10px;
+        gap: 2rem;
+        margin-top: 1rem;
+        margin-left: 3rem;
+    }
 
+    #Avatar {
+        width: 85%;
+    }
+    
+    .section_1{
+        width: 35%;
+        padding: 0.5rem;
+    }
+    
+    .section_2  {
+        width: 65%;
+        padding: 1rem;
+    }
+    
+    
+    .figure_11{
+        top: -4rem;
+        left: 14rem;
+    }
+    
+    .figure_12{
+        top: 28rem;
+        left: 17rem;
+    }
+    
+    .figure_13{
+        top: 35rem;
+        left: -2rem;
+    }
+    
+    .figure_14{
+        top:8rem;
+        left:2rem;
+    }
+    
+    .figure_15{
+        top: 60rem;
+        right: 2rem;
+    }
+    
+    #curve {
+        width: 10vh;
+    }
+    
+    .figure_16{
+        top:0rem;
+        left: 10rem;
+        
+    }
+    
+    .figure_17{
+        top: 57rem;
+        right: 9rem;
+    }
+    
+    #circle_2 {
+        width: 5vh;
+    }
+
+}
 @media (max-width: 1024px) {
+    .icons {
+        font-size: 7px;
+        gap: 2rem;
+        margin-top: 0.5rem;
+        margin-left: 3rem;
+    }
+
+    #Avatar {
+        width: 90%;
+        height: 70%;
+    }
+
+    .about_me {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .section_1{
+        width: 50%;
+        padding: 0.5rem;
+        display: none;
+    }
+    
+    .section_2  {
+        width: 100%;
+        padding: 2rem;
+        margin-left: 1rem;
+    
+    }
+    
+    
+    .figure_11{
+        top: -4rem;
+        left: 14rem;
+    }
+    
+    .figure_12{
+        top: 28rem;
+        left: 17rem;
+    }
+    
+    .figure_13{
+        top: 35rem;
+        left: -2rem;
+    }
+    
+    .figure_14{
+        top:2rem;
+        left:2rem;
+    }
+    
+    .figure_15{
+        top: 60rem;
+        right: 2rem;
+    }
+    
+    #curve {
+        width: 9vh;
+    }
+    
+    .figure_16{
+        top: -1rem;
+        left: 10rem;
+        
+    }
+    
+    .figure_17{
+        top: 57rem;
+        right: 9rem;
+    }
+    
+    #circle_2 {
+        width: 5vh;
+    }
 
 }
+
+
 
 @media (max-width: 768px) {
 
+    .icons {
+        font-size: 5px;
+        gap: 2rem;
+        margin-top: 0rem;
+    }
+
+    .figure_11{
+        top: -5rem;
+        left: 14rem;
+    }
+    
+    .figure_12{
+        top: 28rem;
+        left: 17rem;
+    }
+    
+    .figure_13{
+        top: 35rem;
+        left: -2rem;
+    }
+    
+    .figure_14{
+        top:1rem;
+        left:2rem;
+    }
+    
+    .figure_15{
+        top: 60rem;
+        right: 2rem;
+    }
+    
+    #curve {
+        width: 6vh;
+    }
+    
+    .figure_16{
+        top: -1rem;
+        left: 10rem;
+        
+    }
+    
+    .figure_17{
+        top: 57rem;
+        right: 9rem;
+    }
+    
+    #circle_2 {
+        width: 4vh;
+    }
+
+    
+    .titles {
+        margin-bottom: 0rem !important;
+    }
+
 }
 
-@media (max-width: 425px) {
+@media (max-width: 426px) {
+
+    .Btn-a{
+        margin-bottom: 1rem !important;
+    }
+
+    .icons {
+        font-size: 5px;
+        margin-left: 0;
+        gap: 1rem;
+    }
+
+    #icon {
+        width: 30px;
+    }
+
+    .figure_11{
+        top: -1rem;
+        left: 20rem;
+    }
+    
+    .figure_12{
+        top: 10rem;
+        left: 22rem;
+    }
+    
+    .figure_13{
+        top: 30rem;
+        left: 0rem;
+    }
+    
+    .figure_14{
+        top:0rem;
+        left:2rem;
+    }
+    
+    .figure_15{
+        top: 22rem;
+        right: 2rem;
+    }
+    
+    #curve {
+        width: 6vh;
+    }
+    
+    .figure_16{
+        top: 2rem;
+        left: 4rem;
+        
+    }
+    
+    .figure_17{
+        top: 40rem;
+        right: 4rem;
+    }
+    
+    #circle_2 {
+        width: 5vh;
+    }
+
+    .titles {
+        margin-bottom: 0rem !important;
+    }
 
 }
 
-@media (max-width: 375px) {
+
+@media (max-width: 376px) {
+
+    .Btn-a{
+        margin-bottom: 1rem !important;
+    }
+
+    .icons {
+        font-size: 5px;
+        margin-left: 0;
+        gap: 1rem;
+    }
+
+    #icon {
+        width: 30px;
+    }
+
+    .figure_11{
+        top: -5rem;
+        left: 14rem;
+    }
+    
+    .figure_12{
+        top: 28rem;
+        left: 17rem;
+    }
+    
+    .figure_13{
+        top: 35rem;
+        left: -2rem;
+    }
+    
+    .figure_14{
+       display: none;
+    }
+    
+    .figure_15{
+        top: 60rem;
+        right: 2rem;
+    }
+    
+    #curve {
+        width: 6vh;
+    }
+    
+    .figure_16{
+        top: -1rem;
+        left: 10rem;
+        
+    }
+    
+    .figure_17{
+        top: 20rem;
+        right: 2rem;
+    }
+    
+    #circle_2 {
+        width: 4vh;
+    }
+
+    .titles {
+        margin-bottom: 0rem !important;
+    }
 
 }
 
 @media (max-width: 320px) {
+
+    .Btn-a{
+        margin-bottom: 1rem !important;
+    }
+
+    .icons {
+        margin-left: 0;
+        gap: 1rem;
+    }
+
+    #icon {
+        width: 30px;
+    }
+
+    .figure_11{
+        top: -5rem;
+        left: 14rem;
+    }
+    
+    .figure_12{
+        top: 28rem;
+        left: 17rem;
+    }
+    
+    .figure_13{
+        top: 35rem;
+        left: -2rem;
+    }
+    
+    .figure_14{
+       display: none;
+    }
+    
+    .figure_15{
+        top: 60rem;
+        right: 2rem;
+    }
+    
+    #curve {
+        width: 6vh;
+    }
+    
+    .figure_16{
+        top: -1rem;
+        left: 10rem;
+        
+    }
+    
+    .figure_17{
+        top: 57rem;
+        right: 9rem;
+    }
+    
+    #circle_2 {
+        width: 4vh;
+    }
+
+    .titles {
+        margin-bottom: 0rem !important;
+    }
 
 }
 

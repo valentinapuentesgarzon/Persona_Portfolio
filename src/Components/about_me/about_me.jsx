@@ -34,10 +34,10 @@ const about_me = () => {
           </div>
 
           <div className="sub_section_2">
-            <a id= 'Btn' href={CV} download>Descargar CV</a>
+            <a id= 'Btn' className='Btn-a' href={CV} download>Descargar CV</a>
             <div className="icons"> 
-              <a  href="https://www.linkedin.com/in/valentina-puentes-garzon-developer/" target="_blank"><img id='icon' src={Linkedin} alt="" /></a>
-              <a  href="https://github.com/valentinapuentesgarzon" target="_blank"><img  id='icon' src={github} alt="" /></a>
+              <a href="https://www.linkedin.com/in/valentina-puentes-garzon-developer/" target="_blank"><img id='icon' src={Linkedin} alt="" /></a>
+              <a href="https://github.com/valentinapuentesgarzon" target="_blank"><img  id='icon' src={github} alt="" /></a>
 
             </div>
           </div>
@@ -45,26 +45,26 @@ const about_me = () => {
       </div>
 
       <div className="figure_11">
-        <img  src={Blossom_blue} alt="" />
+        <img id= 'Blossom'  src={Blossom_blue} alt="" />
       </div>
       <div className="figure_12">
-        <img  src={Blossom_Pink} alt="" />
+        <img id= 'Blossom'  src={Blossom_Pink} alt="" />
       </div>
 
       <div className="figure_13">
-        <img  src={Blossom_blue} alt="" />
+        <img id= 'Blossom'  src={Blossom_blue} alt="" />
       </div>
 
       <div className="figure_14">
-        <img  src={circle_left_1} alt="" />
+        <img id='circle_2' src={circle_left_1} alt="" />
       </div>
 
       <div className="figure_15">
-        <img  id='curve_1' src={curve_left_1} alt="" />
+        <img  id='curve' src={curve_left_1} alt="" />
       </div>
 
       <div className="figure_16">
-        <img src={curve_left_2} alt="" />
+        <img id='curve' src={curve_left_2} alt="" />
       </div>
 
       <div className="figure_17">

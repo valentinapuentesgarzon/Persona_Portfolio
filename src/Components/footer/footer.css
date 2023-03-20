@@ -2,8 +2,6 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-
-
 }
 
 .icons-f {
@@ -27,30 +25,50 @@
     justify-content: center;
 }
 
-@media (min-width: 2560px) {
-    
-}
-
-@media (max-width: 1440px) {
-
-}
-
 @media (max-width: 1024px) {
+
+    #icon-f {
+        width: 50px;
+    } 
 
 }
 
 @media (max-width: 768px) {
 
+    #icon-f {
+        width: 45px;
+    } 
+
 }
 
-@media (max-width: 425px) {
+@media (max-width: 426px) {
+
+    .icons-f {
+        gap: 1.5rem;
+    }
+
+    #icon-f {
+        width: 40px;
+    } 
 
 }
 
 @media (max-width: 375px) {
 
+    .icons-f {
+        gap: 1.5rem;
+    }
+
+    #icon-f {
+        width: 30px;
+    } 
+
 }
 
 @media (max-width: 320px) {
+
+    #icon-f {
+        width: 25px;
+    } 
 
 }
