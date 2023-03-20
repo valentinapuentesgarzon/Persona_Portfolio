@@ -169,10 +169,28 @@ h2 {
 
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1600px) {
 
   #Btn {
     font-size: 2rem;
+    margin-bottom: 0px;
+  }
+
+  #icon {
+    width: 40px;
+}
+
+.icons{
+  gap: 1rem;
+}
+
+
+}
+
+@media (max-width: 1440px) {
+
+  #Btn {
+    font-size: 3rem;
   }
 
   p {

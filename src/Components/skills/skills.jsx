@@ -24,19 +24,19 @@ const skills = () => {
       </div>
 
       <div className="figure_7">
-        <img src={Elipse} alt="" />
+        <img id='Elipse'src={Elipse} alt="" />
       </div>
 
       <div className="figure_8">
-        <img src={circle_1} alt="" />
+        <img id='circle_1' src={circle_1} alt="" />
       </div>
 
       <div className="figure_9">
-        <img  src={Blossom_blue} alt="" />
+        <img id= 'Blossom'  src={Blossom_blue} alt="" />
       </div>
 
       <div className="figure_10">
-        <img  src={Blossom_Pink} alt="" />
+        <img id= 'Blossom'  src={Blossom_Pink} alt="" />
       </div>
 
 

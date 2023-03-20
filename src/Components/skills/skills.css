@@ -89,18 +89,150 @@
 
 @media (max-width: 768px) {
 
+    #triangule{
+        width: 60%;
+    }
+
+    #skills > img {
+        width: 40%;
+    }
+
+    .figure_5{
+        width: 40%;
+        top: -3rem;
+        right: -3rem;
+    }
+    
+    .figure_6{
+        left: 6rem;
+        top: 1rem;
+    }
+    
+    .figure_7{
+        left: 8rem;
+        top: 4rem;
+    }
+    
+    .figure_8{
+        top: 13rem;
+        left: 2rem;
+    }
+    
+    .figure_9{
+        top: 8rem;
+    }
+    
+    .figure_10{
+        top: -2rem;
+        right: 8rem;
+    }
+
+    #circle_1{
+        width: 3rem;
+    }
+
+    #Elipse {
+        width: 4rem;
+    }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 426px) {
+    #triangule{
+        width: 60%;
+    }
+
+    #skills > img {
+        width: 40%;
+        margin-left: 4rem;
+    }
+
+    .figure_5{
+        width: 40%;
+        top: -3rem;
+        right: -3rem;
+    }
+    
+    .figure_6{
+        left: 4rem;
+        top: 1rem;
+    }
+    
+    .figure_7{
+        left: 2rem;
+        top: 4rem;
+    }
+    
+    .figure_8{
+        top: 13rem;
+        left: 2rem;
+    }
+    
+    .figure_9{
+        top: 8rem;
+    }
+    
+    .figure_10{
+        top: -2rem;
+        right: 8rem;
+    }
+
+    #circle_1{
+        width: 2rem;
+    }
+
+    #Elipse {
+        width: 3rem;
+    }
+
+    .swiper {
+        width: 80% !important;
+        padding-bottom: 4px !important;
+    }
 
 }
 
-@media (max-width: 375px) {
+@media (max-width: 376px) {
+
+    .figure_5{
+        width: 40%;
+        top: -2rem;
+        right: -2rem;
+    }
+    
+    .figure_6{
+        left: 2rem;
+        top: 1rem;
+    }
+    
+    .figure_7{
+        left: 1rem;
+        top: 5  rem;
+    }
+    
+    .figure_8{
+        top: 13rem;
+        left: 2rem;
+    }
+    
+    .figure_9{
+        top: 4rem;
+    }
+    
+    .figure_10{
+        top: 8rem;
+        right: 2rem;
+    }
 
 }
 
 @media (max-width: 320px) {
+    #circle_1{
+        width: 1.5rem;
+    }
 
+    #Elipse {
+        width: 2rem;
+    }
 }
 
 

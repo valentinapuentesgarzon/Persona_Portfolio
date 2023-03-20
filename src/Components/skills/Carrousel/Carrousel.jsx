@@ -49,36 +49,36 @@ export default function Carrousel() {
         className="mySwiper"
       >
        
-        <SwiperSlide>
+        <SwiperSlide id='skills'>
           <img src={HTML} />
         </SwiperSlide>  
         
-        <SwiperSlide>
+        <SwiperSlide  id='skills'>
           <img src={CSS} />
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide  id='skills'>
           <img src={JS} />
 
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide  id='skills'>
           <img src={FRAME}/>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide  id='skills'>
           <img src={Bootstrap}/>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide  id='skills'>
           <img id ='figma'src={Figma} />
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide  id='skills'>
           <img src={XD} />
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide  id='skills'>
           <img src={git} />
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide  id='skills'>
           <img src={github} />
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide  id='skills'>
           <img src={Node} />
         </SwiperSlide>
       </Swiper>
