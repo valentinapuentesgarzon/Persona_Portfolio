@@ -162,6 +162,12 @@
   }  
 }
 
+@media (max-width: 439px) {
+  .cardBox{
+    border: none;
+  }  
+}
+
 @media (max-width: 375px) {
   .cardBox{
     padding: 0rem 0rem;
